@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddRecipe"
+    android:gravity="center"
+    android:background="#FCEFEF">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="#FCEFEF">
+
+            <EditText
+                android:id="@+id/e1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@android:color/white"
+                android:ems="6"
+                android:hint="Title"
+                android:inputType="text"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/etime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Cook time in minutes"
+                android:ems="6"
+                android:layout_margin="16dp"
+                android:padding="16dp"
+                android:inputType="number"
+                android:background="@android:color/white"/>
+
+
+
+            <Spinner
+                android:id="@+id/spin1"
+                android:layout_margin="16dp"
+                android:spinnerMode="dialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/catlist"
+                android:padding="16dp"
+                android:prompt="@string/choose_cat"
+                android:background="@android:color/white"/>
+
+
+            <EditText
+                android:id="@+id/ing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingredients..."
+                android:inputType="textMultiLine"
+                android:ems="6"
+                android:padding="16dp"
+                android:layout_margin="16dp"
+                android:background="@android:color/white"/>
+
+            <EditText
+                android:id="@+id/e2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Recipe..."
+                android:inputType="textMultiLine"
+                android:ems="6"
+                android:padding="16dp"
+                android:layout_margin="16dp"
+                android:background="@android:color/white"/>
+
+
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="add"
+                android:onClick="addRecipe"
+                android:layout_margin="16dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>

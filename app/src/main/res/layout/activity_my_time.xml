@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyTime">
+
+    <TextView
+        android:id="@+id/countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="60sp"
+        android:textColor="@android:color/black"
+        android:text="00:00"/>
+
+
+    <Button
+        android:id="@+id/b_start_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/countdown"
+        android:layout_margin="16dp"
+        android:onClick="onSPClick"
+        android:layout_centerHorizontal="true"
+        android:text="start"/>
+
+
+    <Button
+        android:id="@+id/b_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b_start_pause"
+        android:layout_centerHorizontal="true"
+        android:text="reset"
+        android:onClick="onRClick"
+        android:visibility="invisible"/>
+
+
+    <Button
+        android:id="@+id/b_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b_reset"
+        android:layout_centerHorizontal="true"
+        android:text="end"
+        android:onClick="endTimer"
+        android:visibility="visible"/>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DessertHub</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="choose_cat">Choose a category</string>
+    <string-array name="catlist">
+        <item>cakes</item>
+        <item>cookies</item>
+        <item>pies</item>
+    </string-array>
+</resources>

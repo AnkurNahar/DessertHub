@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "783927281251",
+    "firebase_url": "https://desserthub-51a3d.firebaseio.com",
+    "project_id": "desserthub-51a3d",
+    "storage_bucket": "desserthub-51a3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783927281251:android:712ee8cb3ff5d36f",
+        "android_client_info": {
+          "package_name": "com.ankur.desserthub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783927281251-scrbccuhsmgdn0dj5um73tetrgdtr9o3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ankur.desserthub",
+            "certificate_hash": "e29ea61da05ceb165b66c7a8a02734c849b8661a"
+          }
+        },
+        {
+          "client_id": "783927281251-03ful9m1gc2viib30otl02r5h3vbe6el.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAfBfN9FGh3CJ0etMildWxP0xdi7-XFXs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783927281251-03ful9m1gc2viib30otl02r5h3vbe6el.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
